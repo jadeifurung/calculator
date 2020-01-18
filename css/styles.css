@@ -37,8 +37,10 @@ button {
 }
 
 .calculator {
-  border: 1px solid black;
-  width: 400px;
+  border: 3px solid #161925;
+  width: 300px;
+  padding: .5em;
+  border-radius: 5px;
 }
 
 .calculator-screen {
@@ -56,3 +58,15 @@ button {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.all-clear {
+  background-color: #c1292e;
+  color: #fdfffc;
+}
+
+.equal-sign {
+  grid-row: 2 / span 4;
+  grid-column: 4 / span 1;
+  height: 100%;
+  color: #fdfffc;
+  background-color: #235789;
+}
